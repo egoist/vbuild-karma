@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "echo 'no tests!' && npm run lint",
-    "lint": "xo"
+    "lint": "xo index.js"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
