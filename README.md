@@ -17,9 +17,7 @@ yarn add vue-cli vue-cli-karma --dev
 const karma = require('vue-cli-karma')
 
 module.exports = {
-  run(webpackConfig, options) {
-    karma(webpackConfig, options)
-  }
+  run: karma
 }
 ```
 
