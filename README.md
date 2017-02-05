@@ -29,7 +29,7 @@ module.exports = {
 }
 ```
 
-Check out the example [karma.config.js](/example/karma.config.js), here you need to install `karma-launcher-chrome` `karma-jasmine` `jasmine-core` as well:
+Check out the example [karma.config.js](/example/karma.config.js), here you need to install `karma-launcher-phantomjs` `karma-jasmine` `jasmine-core` as well:
 
 ```bash
 yarn add karma-launcher-phantomjs karma-jasmine jasmine-core --dev
