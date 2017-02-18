@@ -65,7 +65,7 @@ Default: `['test/unit/**/*.test.js']`
 
 Type: `object` `string`
 
-When providing an `object` as `karmaConfig`, it will be assigned to [default karma config we use](/index.js#L7=9).
+When providing an `object` as `karmaConfig`, it will be assigned to [default karma config we use](/index.js#L7).
 
 When providing a `string` as `karmaConfig`, it will be treated as the path to karma config file, eg: `./test/unit/karma.conf.js`, and it will totally override the default karma config.
 
