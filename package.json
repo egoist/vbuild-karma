@@ -1,6 +1,6 @@
 {
   "name": "vbuild-karma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run unit tests with vbuild and Karma",
   "repository": {
     "url": "egoist/vbuild-karma",
