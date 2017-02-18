@@ -1,9 +1,9 @@
 {
-  "name": "vue-cli-karma",
+  "name": "vbuild-karma",
   "version": "0.1.0",
   "description": "Run karma along with `vue build` command",
   "repository": {
-    "url": "egoist/vue-cli-karma",
+    "url": "egoist/vbuild-karma",
     "type": "git"
   },
   "main": "index.js",
@@ -12,16 +12,13 @@
   ],
   "scripts": {
     "test": "echo 'no tests!' && npm run lint",
-    "lint": "xo index.js"
+    "lint": "xo index.js",
+    "example": "vbuild -c example/config.js"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jasmine-core": "^2.5.2",
     "jest-cli": "^18.1.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-phantomjs-launcher": "^1.0.2",
-    "webpack": "^2.2.1",
     "xo": "^0.17.1"
   },
   "xo": {
@@ -29,8 +26,15 @@
     "semicolon": false
   },
   "dependencies": {
+    "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
     "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.26",
     "karma-webpack": "^2.0.2"
+  },
+  "peerDependencies": {
+    "vbuild": "^6.12.0"
   }
 }
