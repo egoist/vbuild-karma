@@ -40,7 +40,7 @@ We use `karma-phantomjs-launcher` `karma-spec-reporter` `karma-jasmine` `jasmine
 }
 ```
 
-You can run the example by"
+You can run the example by:
 
 ```bash
 git clone https://github.com/egoist/vbuild-karma.git
