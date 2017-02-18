@@ -29,6 +29,8 @@ module.exports = {
 
 We use `karma-phantomjs-launcher` `karma-spec-reporter` `karma-jasmine` `jasmine-core` by default.
 
+In Continuous Integration Environment like CircleCi and TravisCi, the `singleRun` mode of Karma will be enabled.
+
 
 **Configure npm scripts**
 
