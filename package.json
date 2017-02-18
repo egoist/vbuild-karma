@@ -1,6 +1,6 @@
 {
   "name": "vbuild-karma",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Run karma along with `vue build` command",
   "repository": {
     "url": "egoist/vbuild-karma",
