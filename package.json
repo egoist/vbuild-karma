@@ -11,7 +11,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo 'no tests!' && npm run lint",
+    "test": "npm run lint && npm run example",
     "lint": "xo index.js",
     "example": "vbuild -c example/config.js"
   },
